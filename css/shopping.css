@@ -1,0 +1,83 @@
+.shopping {
+    height: 79vh;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.category {
+    background-color: #fff;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.cat-heading h1 {
+    color: #56383c;
+
+}
+
+/* cat-button */
+.btn .btn-outline-dark {
+    color: #56383c;
+    border-color: #56383c;
+}
+
+.btn:focus,
+.btn.focus {
+    box-shadow: 0 0 0 0.2rem rgb(86 56 60) !important;
+}
+
+
+.btn-outline-dark:hover {
+    color: #f3efef;
+    background-color: #56383c;
+    border-color: #56383c;
+}
+
+/* cat-box */
+.cat-box {
+    width: 100%;
+}
+
+.cat-box .row {
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+figure {
+    width: 100%;
+    background-color: brown;
+    box-shadow: 0 0 10px #fff;
+    color: rgb(119, 119, 119);
+    margin-top: 0.5rem !important;
+    height: 100%;
+}
+
+figure:hover {
+    box-shadow: 0 0 10px #aa8a8e;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+figure .green {
+    color: #39AF05;
+}
+
+figure .image {
+    width: 95%;
+    margin: 10px auto;
+    height: 371px;
+    background-color: #aa8a8e;
+}
+
+figure .image img {
+    width: 100%;
+    height: 371px;
+
+}
+
+figure .card-body p span:first-of-type {
+    text-decoration: line-through;
+
+}

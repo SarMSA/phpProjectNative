@@ -1,0 +1,169 @@
+* {
+    font-family: 'AmpleSoft Pro';
+    transition: all 0.5s ease;
+}
+
+body {
+    background-color: #f8d7d73d !important;
+}
+
+@media (min-width: 1300px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+        max-width: 1300px !important;
+    }
+}
+
+.btn-jewely {
+    color: #56383c;
+    border-color: #56383c;
+    border-radius: 0;
+    font-weight: bold;
+}
+
+.btn-jewely:hover {
+    color: #f3efef;
+    background-color: #56383c;
+    border-color: #56383c;
+}
+
+/* start navbar */
+.nav-bar {
+    background-color: #56383c;
+    /* position: relative;
+    width: 100%;
+    z-index: 9999; */
+}
+
+.nav-bar .navbar {
+    background-color: transparent !important;
+    padding: 0.5rem 0 !important;
+}
+
+.nav-bar .navbar-brand img {
+    width: 100px;
+
+}
+
+.nav-bar .navbar-collapse li a,
+.nav-bar .navbar-collapse li span {
+    color: #aa8a8e !important;
+    transition: color 0.5s ease;
+
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f3efef !important;
+    cursor: pointer;
+
+}
+
+.brand-span {
+    color: #aa8a8e !important;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+
+        padding-left: 1.2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-bar .navbar-nav .nav-item {
+        text-align: center;
+    }
+}
+
+/* end navbar */
+/* start SignIn */
+section.signUp {
+    display: none;
+}
+
+section.signIn {
+
+    display: none;
+}
+
+section.signUp,
+section.signIn {
+    position: fixed;
+    color: #969BAD;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 99999;
+    align-items: center;
+}
+
+.signUp div.container,
+.signIn div.container {
+    width: 90%;
+    max-width: 450px !important;
+    background-color: #fff;
+    padding: 50px 30px 30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.signIn h3,
+.signUp h3 {
+    color: rgb(64, 69, 83);
+}
+
+.signIn .bold,
+.signUp .bold {
+    font-weight: 800;
+}
+
+.signIn .form-control,
+.signUp .form-control {
+    border: none !important;
+    border-bottom: 1px solid #ced4da !important;
+}
+
+.signIn .form-control:focus,
+.signUp .form-control:focus {
+    box-shadow: none !important;
+}
+
+.signIn a:hover,
+.signUp a:hover {
+    text-decoration: none;
+}
+
+.signIn i,
+.signUp i {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 1.5rem;
+}
+
+/* end SignIn */
+/* start profile */
+.profile {
+    width: 50% !important;
+    margin: 50px auto !important;
+}
+
+.profile:hover {
+    box-shadow: 0 0 10px !important;
+    transform: scale(1.07);
+}
+
+.profile tr {
+    margin-bottom: 20px;
+}
+
+/* end profile */

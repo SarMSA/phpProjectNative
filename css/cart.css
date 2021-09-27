@@ -1,0 +1,11 @@
+section.cart {
+    display: flex;
+    justify-content: center;
+    height: 79vh;
+    align-items: center;
+
+}
+
+.cart img {
+    width: 350px;
+}

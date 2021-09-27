@@ -1,0 +1,64 @@
+/* start header */
+.header {
+    background: url('../images/wave.svg') no-repeat left bottom,
+        url('../images/jewely.svg') no-repeat right bottom/750px 850px;
+    color: #e6a4a4;
+}
+
+.header .home h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+.header .home h2 {
+    font-size: 4rem;
+    color: #e6a4a4;
+
+}
+
+.header .home span:not(.text-warning) {
+    color: #56383c;
+    font-size: 5rem;
+    font-weight: bold;
+
+}
+
+@media (max-width: 992px) {
+    .header {
+        background: url('../images/wave.svg') no-repeat left bottom;
+        color: #e6a4a4;
+    }
+
+    .header .home .content {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header .home h1 {
+        font-size: 5vw;
+    }
+
+    .header .home h2 {
+        font-size: 4vw;
+    }
+}
+
+.header .home p {
+    width: 80% !important;
+}
+
+/* home-button */
+.home .btn-outline-primary {
+    color: #56383c;
+    border-color: #56383c;
+}
+
+
+.home .btn-outline-primary:hover {
+    color: #f3efef;
+    background-color: #56383c;
+    border-color: #56383c;
+}
