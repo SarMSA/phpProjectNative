@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #f8d7d73d !important;
+    background-color: #fff !important;
 }
 
 @media (min-width: 1300px) {
@@ -33,7 +33,8 @@ body {
 
 /* start navbar */
 .nav-bar {
-    background-color: #56383c;
+    background-color: #885c62;
+
     /* position: relative;
     width: 100%;
     z-index: 9999; */
@@ -51,7 +52,7 @@ body {
 
 .nav-bar .navbar-collapse li a,
 .nav-bar .navbar-collapse li span {
-    color: #aa8a8e !important;
+    color: #c29ea3 !important;
     transition: color 0.5s ease;
 
 }

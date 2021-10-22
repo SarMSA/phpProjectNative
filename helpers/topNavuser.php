@@ -1,5 +1,5 @@
 <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-    <a class="navbar-brand font-italic font-weight-bold text-uppercase " href="http://localhost/phpProject/index.php"><img src="http://localhost/phpProject/images/Pearl_Shell_Pink_logo-removebg-preview.png" style="width: 70px; margin-right: 10px" alt="logo"> Jewelry</a>
+    <a class="navbar-brand font-italic font-weight-bold text-uppercase " href="http://localhost/phpProjectNative/index.php"><img src="http://localhost/phpProject/images/Pearl_Shell_Pink_logo-removebg-preview.png" style="width: 70px; margin-right: 10px" alt="logo"> Jewelry</a>
     <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button>
     <!-- Navbar Search-->
     <!-- <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
@@ -18,7 +18,7 @@
                 <a class="dropdown-item" href="#">Settings</a>
                 <a class="dropdown-item" href="#">Activity Log</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="http://localhost/phpProject/signOut.php">Logout</a>
+                <a class="dropdown-item" href="http://localhost/phpProjectNative/signOut.php">Logout</a>
             </div>
         </li>
     </ul>

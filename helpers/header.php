@@ -3,14 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="http://localhost/phpProject/css/all.css" rel="stylesheet" type="text/css">
-	<link href="http://localhost/phpProject/css/bootstrap.css" rel="stylesheet" type="text/css">
-	<link href="http://localhost/phpProject/webfonts/font/stylesheet.css" rel="stylesheet" type="text/css">
-	<link href="http://localhost/phpProject/css/<?php echo $style?>.css" rel="stylesheet" type="text/css">
-	<link href="http://localhost/phpProject/css/<?php echo $user?>.css" rel="stylesheet" type="text/css">
-	<link href="http://localhost/phpProject/css/navbar.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="http://localhost/phpProject/css/main.css">
-	<link rel="stylesheet" href="http://localhost/phpProject/css/animate.min.css"/>
+	<link href="http://localhost/phpProjectNative/css/all.css" rel="stylesheet" type="text/css">
+	<link href="http://localhost/phpProjectNative/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="http://localhost/phpProjectNative/webfonts/font/stylesheet.css" rel="stylesheet" type="text/css">
+	<link href="http://localhost/phpProjectNative/css/<?php echo $style?>.css" rel="stylesheet" type="text/css">
+	<link href="http://localhost/phpProjectNative/css/<?php echo $user?>.css" rel="stylesheet" type="text/css">
+	<link href="http://localhost/phpProjectNative/css/navbar.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="http://localhost/phpProjectNative/css/main.css">
+	<link rel="stylesheet" href="http://localhost/phpProjectNative/css/animate.min.css"/>
 
 
 	<title>PHP PROJECT</title>

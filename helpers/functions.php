@@ -120,11 +120,11 @@ function PrintMessages($text, $del_flag = 0) {
     }
 } 
 function url($input) {
-    return "http://localhost/phpProject/admin/".$input;
+    return "http://localhost/phpProjectNative/admin/".$input;
 }
 
 function urlUser($input) {
-    return "http://localhost/phpProject/user/".$input;
+    return "http://localhost/phpProjectNative/user/".$input;
 }
 function returnPositiveInt ($int) {
 

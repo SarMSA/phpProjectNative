@@ -1,8 +1,9 @@
 /* start header */
 .header {
-    background: url('../images/wave.svg') no-repeat left bottom,
+    background: url('../images/wave\(1\).svg') no-repeat 0 572px,
         url('../images/jewely.svg') no-repeat right bottom/750px 850px;
     color: #e6a4a4;
+    background-color: #885c62;
 }
 
 .header .home h1 {

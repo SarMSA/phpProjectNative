@@ -53,7 +53,7 @@ $numUser = mysqli_num_rows($opuser);
                                         <h3>username: <?php echo $userdata['firstname'].' '.$userdata['lastname']?></h3>
                                         <h3>order number: <?php echo $i?></h3>
                                         <h3>order datetime: <span class="text-primary"><?php echo $userdata['date']?></span></h3>
-                                        <h3>order total price: <span class="text-success"> <?php echo $userdata['status']?></span></h3>
+                                        <h3>order status: <span class="text-success"> <?php echo $userdata['status']?></span></h3>
                                         <h3>order total price: <?php echo $i?></h3>
                                     </div>
                                     <div class="ml-auto">

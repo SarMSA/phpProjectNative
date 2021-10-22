@@ -2,7 +2,7 @@
 <section class="nav-bar">
 			<div class="container">
 				<nav class="navbar navbar-expand-lg navbar-light bg-light">
-					<a class="navbar-brand font-italic font-weight-bold text-uppercase" href="#"><img src="http://localhost/phpProject/images/Pearl_Shell_Pink_logo-removebg-preview.png" alt="logo"></a>
+					<a class="navbar-brand font-italic font-weight-bold text-uppercase" href="#"><img src="http://localhost/phpProjectNative/images/Pearl_Shell_Pink_logo-removebg-preview.png" alt="logo"></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="brand-span"><i class="fas fa-ellipsis-v"></i></span>
 					</button>
@@ -10,18 +10,18 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item <?php echo $home??NULL;?>">
-						<a class="nav-link" href="http://localhost/phpProject/index.php">Home <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="http://localhost/phpProjectNative/index.php">Home <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item <?php echo $shopping??NULL;?>">
-						<a class="nav-link" href="http://localhost/phpProject/shopping.php">Shopping</a>
+						<a class="nav-link" href="http://localhost/phpProjectNative/shopping.php">Shopping</a>
 						</li>
 						<li class="nav-item <?php echo $signIn??NULL;?>">
 							<?php if (!isset($_SESSION['user']) and !isset($_SESSION['admin'])) {?>
 								<span class="nav-link" id="button-signIn">Sign In <i class="fas fa-user"></i></span>
 							<?php }elseif (isset($_SESSION['user']) and !isset($_SESSION['admin'])) {?>
-								<a class="nav-link" href="http://localhost/phpProject/user/index.php">My account <i class="fas fa-user-circle" style="font-size: 1.3rem;"></i></a>
+								<a class="nav-link" href="http://localhost/phpProjectNative/user/index.php">My account <i class="fas fa-user-circle" style="font-size: 1.3rem;"></i></a>
 							<?php }elseif (!isset($_SESSION['user']) and isset($_SESSION['admin'])) { ?>
-								<a class="nav-link" href="http://localhost/phpProject/admin/index.php">ADMIN <i class="fas fa-user-cog"></i></a>
+								<a class="nav-link" href="http://localhost/phpProjectNative/admin/index.php">ADMIN <i class="fas fa-user-cog"></i></a>
 							<?php }?>
 						</li>
 						<li class="nav-item <?php echo $cert??NULL;?>" style=" <?php if (isset($_SESSION['admin'])){echo 'display: none;';} ?>">
