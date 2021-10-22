@@ -1,7 +1,9 @@
 <?php 
+require_once './helpers/functions.php';
+
 
   if(!isset($_SESSION['admin'])){
-      header("Location: http://localhost/phpProjectNative/index.php");
+    header("Location: ".hurl('index.php'));
   }
 
 ?>
