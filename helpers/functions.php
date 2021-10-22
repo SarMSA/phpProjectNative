@@ -120,15 +120,15 @@ function PrintMessages($text, $del_flag = 0) {
     }
 } 
 function url($input) {
-    return "http://".$_SERVER['HTTP_HOST']."/phpProjectNative/admin/".$input;
+    return "https://".$_SERVER['HTTP_HOST']."/phpProjectNative/admin/".$input;
 }
 
 function hurl($input){
-    return "http://".$_SERVER['HTTP_HOST']."/".$input;
+    return "https://".$_SERVER['HTTP_HOST']."/".$input;
 }
 
 function urlUser($input) {
-    return "http://".$_SERVER['HTTP_HOST']."/user/".$input;
+    return "https://".$_SERVER['HTTP_HOST']."/user/".$input;
 }
 function returnPositiveInt ($int) {
 
