@@ -124,7 +124,7 @@ function url($input) {
 }
 
 function hurl($input){
-    return "http://".$_SERVER['HTTP_HOST']."/phpProjectNative/".$input;
+    return "http://localhost/phpProjectNative/".$input;
 }
 
 function urlUser($input) {
