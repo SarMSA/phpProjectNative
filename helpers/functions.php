@@ -128,7 +128,7 @@ function hurl($input){
 }
 
 function urlUser($input) {
-    return "http://".$_SERVER['HTTP_HOST']."/phpProjectNative/user/".$input;
+    return "http://".$_SERVER['HTTP_HOST']."/user/".$input;
 }
 function returnPositiveInt ($int) {
 
