@@ -1,6 +1,6 @@
 # phpProjectNative
 # E-commerce project
-#### Video Demo:  <URL HERE>
+#### url:  <https://shopping-php.herokuapp.com/>
 #### Description: 
 This is a shopping project, especially for jewelry. In this project you can first sign in (or sign up if you don't have an account) to be able to add products to your cart.
 After registeration, you can go to shopping page and view all products and add what you want to your cart. After that , you can press order to add it to your bill (the bill don't be active until you press submit oreder, in that case , you can't add any other product to this bill)
