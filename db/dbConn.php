@@ -12,10 +12,10 @@ $dbName = 'heroku_9fec70058342bef';
 
 $conn = mysqli_connect($server, $dbUser, $dbPassword, $dbName);
 // 
-// $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-// $cleardb_server = $cleardb_url["host"];
-// $cleardb_username = $cleardb_url["user"];
-// $cleardb_password = $cleardb_url["pass"];
+// $cleardb_url = parse_url(getenv("heroku_9fec70058342bef"));
+// $cleardb_server = $cleardb_url["us-cdbr-east-04.cleardb.com"];
+// $cleardb_username = $cleardb_url["bb2a1ae18e4b04"];
+// $cleardb_password = $cleardb_url["fdeac4f6"];
 // $cleardb_db = substr($cleardb_url["path"],1);
 // $active_group = 'default';
 // $query_builder = TRUE;
