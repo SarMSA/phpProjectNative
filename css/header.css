@@ -32,12 +32,18 @@
 
 @media (max-width: 992px) {
     .header {
-        background: url('../images/wave.svg') no-repeat left bottom;
+        background: url('../images/wave\(1\).svg') no-repeat left bottom;
         color: #e6a4a4;
+        background-color: #885c62;
+
     }
 
     .header .flower {
         display: none;
+    }
+
+    .header .home {
+        padding-bottom: 0;
     }
 
     .header .home .content {
