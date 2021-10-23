@@ -120,7 +120,7 @@ function PrintMessages($text, $del_flag = 0) {
     }
 } 
 function url($input) {
-    return "https://".$_SERVER['HTTP_HOST']."/phpProjectNative/admin/".$input;
+    return "https://".$_SERVER['HTTP_HOST']."/admin/".$input;
 }
 
 function hurl($input){
