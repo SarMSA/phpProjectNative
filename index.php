@@ -17,7 +17,6 @@ $op = mysqli_query($conn, $sql);
 				<h2 class="text-uppercase">stud <span>y</span>ourself !</h2>
 				<a href="shopping.php" class="text-uppercase btn btn-jewely">start shopping</a>
 			</div>
-            </div>
             <div class="flower">
                 <img src="images/1298017-e6a3a3.svg" style="width: 400px;height: 553px;/* position: absolute; */top: 500px;right: 137px;">
             </div>
