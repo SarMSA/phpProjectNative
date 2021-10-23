@@ -26,23 +26,14 @@
 }
 
 .header .home {
-    padding-bottom: 60px;
+    padding-bottom: 250px;
 }
 
-@media (max-width: 1200px) {
-    .header .flower img {
-        margin-bottom: 60px;
-    }
-}
 
 @media (max-width: 992px) {
     .header {
         background: url('../images/wave.svg') no-repeat left bottom;
         color: #e6a4a4;
-    }
-
-    .header .home {
-        padding-bottom: 80px;
     }
 
     .header .home .content {
