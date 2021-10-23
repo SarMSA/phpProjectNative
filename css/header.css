@@ -36,6 +36,10 @@
         color: #e6a4a4;
     }
 
+    .header .flower {
+        display: none;
+    }
+
     .header .home .content {
         text-align: center;
     }
