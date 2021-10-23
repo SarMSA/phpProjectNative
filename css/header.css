@@ -1,6 +1,6 @@
 /* start header */
 .header {
-    background: url('../images/wave\(1\).svg') no-repeat 0 65vh;
+    background: url('../images/wave\(1\).svg') no-repeat 0 60vh;
     color: #e6a4a4;
     background-color: #885c62;
 }
@@ -23,6 +23,16 @@
     font-size: 5rem;
     font-weight: bold;
 
+}
+
+.header .flower img {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1200) {
+    .header .flower img {
+        margin-bottom: 60px;
+    }
 }
 
 @media (max-width: 992px) {
