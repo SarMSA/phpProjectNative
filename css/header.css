@@ -1,7 +1,6 @@
 /* start header */
 .header {
-    background: url('../images/wave\(1\).svg') no-repeat 0 80vh,
-        url('../images/1298017-e6a3a3.svg') no-repeat right center/900px 600px;
+    background: url('../images/wave\(1\).svg') no-repeat 0 65vh;
     color: #e6a4a4;
     background-color: #885c62;
 }
@@ -30,6 +29,10 @@
     .header {
         background: url('../images/wave.svg') no-repeat left bottom;
         color: #e6a4a4;
+    }
+
+    .header .flower {
+        display: none;
     }
 
     .header .home .content {

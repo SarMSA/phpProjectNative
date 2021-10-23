@@ -11,12 +11,16 @@ $op = mysqli_query($conn, $sql);
 
 	<!-- start header -->
 	<section class="header d-flex flex-wrap flex-column">
-		<div class="home container d-flex flex-grow-1 align-items-center">
+		<div class="home container d-flex flex-grow-1 align-items-center justify-content-between">
 			<div class="content">
 				<h1 class="text-uppercase">for the <br><span>fe<span>m</span>inine</span>in you</h1>
 				<h2 class="text-uppercase">stud <span>y</span>ourself !</h2>
 				<a href="shopping.php" class="text-uppercase btn btn-jewely">start shopping</a>
 			</div>
+            </div>
+            <div class="flower">
+                <img src="images/1298017-e6a3a3.svg" style="width: 400px;height: 553px;/* position: absolute; */top: 500px;right: 137px;">
+            </div>
 		</div>
 	</section>
 	<!-- end header -->
