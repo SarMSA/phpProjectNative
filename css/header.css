@@ -5,7 +5,7 @@
     background-color: #885c62;
 }
 
-@media (max-width: 538) {
+@media (max-width: 538px) {
     .header .home h1 {
         font-size: 3rem;
         font-weight: 700;
@@ -27,7 +27,7 @@
     }
 }
 
-@media (min-width: 539) {
+@media (min-width: 539px) {
     .header .home h1 {
         font-size: 4.5rem;
         font-weight: 700;
